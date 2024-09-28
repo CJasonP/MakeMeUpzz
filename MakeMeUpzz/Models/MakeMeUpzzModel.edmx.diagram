@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e1280625d1fa42098fda6bdb1ff742e8" Name="Diagram1" ZoomLevel="73">
+        <EntityTypeShape EntityType="MakeMeUpzzDBModel.Cart" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MakeMeUpzzDBModel.MakeupBrand" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MakeMeUpzzDBModel.Makeup" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MakeMeUpzzDBModel.MakeupType" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MakeMeUpzzDBModel.TransactionDetail" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MakeMeUpzzDBModel.TransactionHeader" Width="1.5" PointX="3" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MakeMeUpzzDBModel.User" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <AssociationConnector Association="MakeMeUpzzDBModel.FK_Carts_Makeups" ManuallyRouted="false" />
+        <AssociationConnector Association="MakeMeUpzzDBModel.FK_Carts_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="MakeMeUpzzDBModel.FK_Makeups_MakeupBrands" ManuallyRouted="false" />
+        <AssociationConnector Association="MakeMeUpzzDBModel.FK_Makeups_MakeupTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="MakeMeUpzzDBModel.FK_Table_Makeups" ManuallyRouted="false" />
+        <AssociationConnector Association="MakeMeUpzzDBModel.FK_Table_TransactionHeaders" ManuallyRouted="false" />
+        <AssociationConnector Association="MakeMeUpzzDBModel.FK_TransactionHeaders_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
